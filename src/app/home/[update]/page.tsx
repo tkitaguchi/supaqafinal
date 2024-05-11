@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import { Button } from '../../components/ui/button';
 import supabase from '../../config/supabaseClient';
 import updateQA from '@/actions/updateQA';
 import fechSingleQA from '@/actions/fetchSingleQA';

@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import createQA from '../../actions/createQA';
-import { Button } from '@/components/ui/button';
+import { Button } from '../components/ui/button';
 
 const Create = async() => {
     const handleAddQA = async (formData: FormData) => {
