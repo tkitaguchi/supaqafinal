@@ -1,4 +1,4 @@
-import supabase from "../../app/config/supabaseClient";
+import supabase from "../../../app/config/supabaseClient";
 import { useEffect, useState } from "react";
 
 const Data: React.FC = () => {
