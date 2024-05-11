@@ -25,9 +25,12 @@ export default async function Home() {
     
             if (error) {
                 console.error("Error deleting qa:", error);
+                
+
             }
             if (data) {
                 console.log("Deleted qa:", data);
+                window.location.reload();
             }
     }
             
